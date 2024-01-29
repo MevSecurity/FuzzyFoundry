@@ -9,5 +9,9 @@ Avalanche | TESTNET	| https://avalanche-fuji.drpc.org/
 Blast   | TESTNET | https://sepolia.blast.io/"
 # Just add your custom RPC
 export ETH_RPC_URL=$(printf "$RPC" | fzf | awk -F ' \\| ' '{print $3}')
-echo "--rpc-url$ETH_RPC_URL" |pbcopy
-echo "RPC: [$ETH_RPC_URL] copied to the current buffer ✅"
+if [ -z "$ETH_RPC_URL" ]; then
+  echo "Nothing has been selected, quit."
+else
+  echo "--rpc-url$ETH_RPC_URL" |pbcopy
+  echo "RPC: [$ETH_RPC_URL] copied to the current buffer ✅"
+fi
