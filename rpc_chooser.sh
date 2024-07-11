@@ -1,8 +1,8 @@
 #!/bin/bash
 
 RPC="Ethereum  | MAINNET | https://eth.drpc.org
-Ethereum Sepolia Testnet | TESTNET	| https://sepolia.drpc.org
-Ethereum Goerli Testnet | TESTNET	| https://goerli.drpc.org/
+Ethereum Sepolia Testnet | TESTNET | https://sepolia.drpc.org
+Ethereum Goerli Testnet | TESTNET | https://goerli.drpc.org/
 OP Mainnet | MAINNET | https://mainnet.optimism.io
 OP Sepolia | TESTNET | https://sepolia.optimism.io
 Binance Smart Chain | TESTNET | https://bsc-testnet.drpc.org/
